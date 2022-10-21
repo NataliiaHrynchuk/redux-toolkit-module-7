@@ -8,7 +8,7 @@ export const Button = ({
 }) => {
     return (
         <SC.Button
-            selected={selected}
+            selected
             type={type}
             {...otherProps}>
             {children}
