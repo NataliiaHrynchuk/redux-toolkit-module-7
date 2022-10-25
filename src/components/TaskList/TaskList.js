@@ -2,7 +2,7 @@
 import { useSelector } from "react-redux";
 import { Task } from "components/Task/Task";
 // Імпортуємо об'єкт значень фільтра
-import  statusFilters  from "../../redux/filters/constants,js";
+import  {statusFilters}  from "../../redux/filters/constants";
 import { getTasks} from "redux/tasks/selectors";
 import { getStatusFilter } from "redux/filters/selectors";  
 import * as SC from "./TaskList.styled";

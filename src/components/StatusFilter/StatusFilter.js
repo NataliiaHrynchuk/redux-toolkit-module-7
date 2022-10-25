@@ -1,7 +1,7 @@
 // Імпортуємо хук
 import { useSelector, useDispatch} from "react-redux";
 // Імпортуємо об'єкт значень фільтра
-import statusFilters from "../../redux/filters/constants,js";
+import {statusFilters} from "../../redux/filters/constants.js";
 //Імпортуємо генератор екшену
 import { setStatusFilter } from "redux/filters/actions"; 
 import { Button } from "components/Button/Button";
