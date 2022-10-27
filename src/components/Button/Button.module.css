@@ -1,0 +1,9 @@
+.btn {
+    background-color: #e2e5e8;
+    color: inherit;
+}
+
+.btn.isSelected {
+    background-color: #1976d2;
+    color: #fff;
+}

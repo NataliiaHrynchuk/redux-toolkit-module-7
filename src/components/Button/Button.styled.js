@@ -7,18 +7,15 @@ export const Button = styled.button`
     border: none;
     font: inherit;
     cursor: pointer;
-    background-color: #e2e5e8;
-    color: inherit;
+    /* background-color: #e2e5e8; */
+   
+    /* color: inherit; */
     &:hover {
         background-color: #1976d2;
         color: #fff;
     }
     &:active {
         background-color: #1565c0;
-        color: #fff;
-    }
-    &.selected {
-        background-color: #1976d2;
         color: #fff;
     }
 `;
