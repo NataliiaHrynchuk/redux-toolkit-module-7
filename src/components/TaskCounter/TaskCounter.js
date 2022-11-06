@@ -1,6 +1,6 @@
 // Імпортуємо хук
 import { useSelector } from "react-redux";
-import { getTasks } from "../../redux/tasks/selectors";
+import { getTasks } from "redux/selectors";
 import * as SC from "./TaskCounter.styled";
 
 export const TaskCounter = () => {

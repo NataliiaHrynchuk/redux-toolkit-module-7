@@ -1,8 +1,8 @@
 {
-  "name": "redux-toolkit-module-6",
+  "name": "redux-toolkit-module-7",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://NataliiaHrynchuk.github.io/redux-toolkit-module-6/",
+  "homepage": "https://NataliiaHrynchuk.github.io/redux-toolkit-module-7/",
   "dependencies": {
     "@redux-devtools/extension": "^3.2.3",
     "@reduxjs/toolkit": "^1.8.6",

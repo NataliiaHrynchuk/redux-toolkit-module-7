@@ -2,10 +2,9 @@
 import { useSelector } from "react-redux";
 import { Task } from "components/Task/Task";
 // Імпортуємо об'єкт значень фільтра
-import  {statusFilters}  from "../../redux/filters/constants";
-import { getTasks} from "redux/tasks/selectors";
-import { getStatusFilter } from "redux/filters/selectors";  
-import * as SC from "./TaskList.styled";
+import  {statusFilters}  from "redux/constants";
+import { getTasks, getStatusFilter } from "redux/selectors";
+import * as SC from "components/TaskList/TaskList.styled";
 
 const getVisibleTasks = (tasks, statusFilter) => {
   switch (statusFilter) {
