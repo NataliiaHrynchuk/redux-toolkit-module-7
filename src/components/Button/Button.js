@@ -1,5 +1,5 @@
-import * as SC from "./Button.styled";
-import css from "./Button.module.css";
+import * as SC from "components/Button/Button.styled";
+import css from "components/Button/Button.module.css";
 import clsx from 'clsx';
 
 
@@ -11,7 +11,9 @@ export const Button = ({
 }) => {
     return (
         <SC.Button 
-            className={clsx(css.btn, {[css.isSelected]:selected})}
+            className={clsx(css.btn, {
+                [css.isSelected]: selected
+            })}
             type={type}
             {...otherProps}>
             {children}
